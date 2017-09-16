@@ -1,0 +1,10 @@
+[2017-08-08 14:07:29 0.74039500] ======= FleaPHP Loaded =======
+[2017-08-08 14:07:29] REQUEST_URI: /fleaphp/Guestbook/
+[2017-08-08 14:07:29] [debug] :sql: SELECT VERSION()
+[2017-08-08 14:07:29] [debug] :sql: SET NAMES 'utf8'
+[2017-08-08 14:07:29] [debug] :sql: SHOW FULL COLUMNS FROM `guestbook`
+[2017-08-08 14:07:29] [exception] :FLEA_Db_Exception_SqlQuery: SQL 错误消息: "Table 'fleaphp.guestbook' doesn't exist"
+SQL 语句: "SHOW FULL COLUMNS FROM `guestbook`"
+SQL 错误代码: "7335941".
+[2017-08-08 14:07:29 0.88949400] ======= FleaPHP End (elapsed: 0.149099 seconds) =======
+
