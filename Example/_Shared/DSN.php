@@ -7,6 +7,6 @@ return array(
         'host'      => 'localhost',
         'login'     => 'root',
         'password'  => 'root',
-        'database'  => 'fleaphp'
+        'database'  => 'test'
     )
 );
