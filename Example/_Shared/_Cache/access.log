@@ -255,3 +255,90 @@
 [2017-08-10 16:27:51] [debug] :sql: SELECT `album_photos`.`album_id` AS flea_pkref_album_id, `album_photos`.`thumb_filename` FROM `album_photos`  WHERE `album_photos`.`album_id` IN ('2','1') ORDER BY created DESC
 [2017-08-10 16:27:51 0.04956600] ======= FleaPHP End (elapsed: 0.034901 seconds) =======
 
+[2017-09-16 17:35:56 0.22164400] ======= FleaPHP Loaded =======
+[2017-09-16 17:35:57] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:35:57] [exception] :FLEA_Db_Exception_SqlQuery: SQL 错误消息: "Unknown database 'fleaphp'"
+SQL 语句: "SELECT DATABASE: 'fleaphp' FAILED!"
+SQL 错误代码: "7335941".
+[2017-09-16 17:35:57 0.27068600] ======= FleaPHP End (elapsed: 1.049042 seconds) =======
+
+[2017-09-16 17:37:36 0.07160800] ======= FleaPHP Loaded =======
+[2017-09-16 17:37:37] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:37:37] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:37:37] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:37:37] [debug] :sql: SHOW FULL COLUMNS FROM `mvcblog_posts`
+[2017-09-16 17:37:37] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:37:37 0.12474300] ======= FleaPHP End (elapsed: 1.053135 seconds) =======
+
+[2017-09-16 17:38:47 0.21525900] ======= FleaPHP Loaded =======
+[2017-09-16 17:38:48] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:38:48] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:38:48] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:38:48] [debug] :sql: SHOW FULL COLUMNS FROM `mvcblog_posts`
+[2017-09-16 17:38:48] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:38:48 0.24640200] ======= FleaPHP End (elapsed: 1.031143 seconds) =======
+
+[2017-09-16 17:38:48 0.85859100] ======= FleaPHP Loaded =======
+[2017-09-16 17:38:49] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:38:49] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:38:49] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:38:49] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:38:49 0.88806100] ======= FleaPHP End (elapsed: 1.029470 seconds) =======
+
+[2017-09-16 17:38:49 0.89784600] ======= FleaPHP Loaded =======
+[2017-09-16 17:38:50] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:38:50] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:38:50] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:38:50] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:38:50 0.92572400] ======= FleaPHP End (elapsed: 1.027878 seconds) =======
+
+[2017-09-16 17:38:50 0.93529300] ======= FleaPHP Loaded =======
+[2017-09-16 17:38:51] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:38:51] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:38:51] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:38:51] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:38:51 0.97164500] ======= FleaPHP End (elapsed: 1.036352 seconds) =======
+
+[2017-09-16 17:40:56 0.96403500] ======= FleaPHP Loaded =======
+[2017-09-16 17:40:57] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:40:57] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:40:57] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:40:57] [debug] :sql: SHOW FULL COLUMNS FROM `mvcblog_posts`
+[2017-09-16 17:40:57] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:40:58 0.00010700] ======= FleaPHP End (elapsed: 1.036072 seconds) =======
+
+[2017-09-16 17:41:02 0.92250900] ======= FleaPHP Loaded =======
+[2017-09-16 17:41:03] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=Add
+[2017-09-16 17:41:03] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:41:03] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:41:03 0.93692800] ======= FleaPHP End (elapsed: 1.014419 seconds) =======
+
+[2017-09-16 17:41:26 0.32523600] ======= FleaPHP Loaded =======
+[2017-09-16 17:41:27] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=index
+[2017-09-16 17:41:27] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:41:27] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:41:27] [debug] :sql: SHOW FULL COLUMNS FROM `mvcblog_posts`
+[2017-09-16 17:41:27] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:41:27 0.35406900] ======= FleaPHP End (elapsed: 1.028833 seconds) =======
+
+[2017-09-16 17:41:32 0.62885100] ======= FleaPHP Loaded =======
+[2017-09-16 17:41:33] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=Add
+[2017-09-16 17:41:33] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:41:33] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:41:33 0.64560600] ======= FleaPHP End (elapsed: 1.016755 seconds) =======
+
+[2017-09-16 17:41:49 0.85464300] ======= FleaPHP Loaded =======
+[2017-09-16 17:41:50] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=Save
+[2017-09-16 17:41:50] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:41:50] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:41:50] [debug] :sql: SHOW FULL COLUMNS FROM `mvcblog_posts`
+[2017-09-16 17:41:50] [debug] :sql: INSERT INTO `mvcblog_posts` (`title`, `body`, `created`, `updated`) VALUES ('今夜好美','今天晚上好美啊。','2017-09-16 17:41:50','2017-09-16 17:41:50')
+[2017-09-16 17:41:50 0.89825100] ======= FleaPHP End (elapsed: 1.043608 seconds) =======
+
+[2017-09-16 17:41:50 0.90907500] ======= FleaPHP Loaded =======
+[2017-09-16 17:41:51] REQUEST_URI: /fleaphp/Example/MVC-Blog/index.php?controller=Post&action=Index
+[2017-09-16 17:41:51] [debug] :sql: SELECT VERSION()
+[2017-09-16 17:41:51] [debug] :sql: SET NAMES 'utf8'
+[2017-09-16 17:41:51] [debug] :sql: SELECT  `mvcblog_posts`.* FROM `mvcblog_posts`  
+[2017-09-16 17:41:51 0.92427800] ======= FleaPHP End (elapsed: 1.015203 seconds) =======
+
